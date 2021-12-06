@@ -29,7 +29,7 @@
                 </div>
                     
                 <div class="col-span-1">
-                    <p class="text-md text-center  text-white"> {{ titulocentro }}</p>
+                    <p class="text-md text-center whitespace-nowrap text-white"> {{ titulocentro }}</p>
                 </div>
                     
                 <div class="col-span-1">
