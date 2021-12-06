@@ -106,3 +106,6 @@ body{
 .animacion:hover{
     @apply transform -translate-y-1 scale-110;
 }
+.ferromex-color{
+    background-color: #BB2028;
+}

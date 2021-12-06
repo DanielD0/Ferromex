@@ -18,22 +18,24 @@
           >
         </Card> -->
         
-    <Footer 
+    <!-- <Footer 
       titulocentro = "© 2021 Proyectos y Sistemas Informaticos."
         tituloderecha = "V 2.0.5"
         tituloizquierda = ""
         color = "red"
-    />
+    /> -->
+    <FooterGenereico/>
 </template>
 
 <script>
 import Modal from '../components/Modal.vue';
 import Footer from '../components/FooterLogin.vue';
 import CardLogin from '../components/CardLogin.vue';
-import Card from '../components/CardMenu.vue'
+import Card from '../components/CardMenu.vue';
+import FooterGenereico from '../components/Footer.vue'
 import {ref} from 'vue';
 export default {
-  components: {Modal,Footer,CardLogin,Card},
+  components: {Modal,Footer,CardLogin,Card,FooterGenereico},
   setup () {
     const showModalTramoEditar = ref(false);
     const modulos = [
