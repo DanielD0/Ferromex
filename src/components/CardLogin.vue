@@ -23,7 +23,7 @@
                 <span class="text-sm">Recordarme</span>
             </label> -->
 
-            <button class="btn justify-self-center" :class="{'btnlogincolorgray' :color === 'gray','btnlogincolorgreen' :color === 'green', 'ferromex-color' :color === 'red','btnlogincolorblue' :color === 'blue','btnlogincoloryellow' :color === 'yellow','btnlogincolorindigo' :color === 'indigo','btnlogincolorpurple' :color === 'purple','btnlogincolorpink' :color === 'pink' }" type="submit">Iniciar Sesion</button>
+            <button class="btn justify-self-center text-white" :class="{'btnlogincolorgray' :color === 'gray','btnlogincolorgreen' :color === 'green', 'ferromex-color' :color === 'red','btnlogincolorblue' :color === 'blue','btnlogincoloryellow' :color === 'yellow','btnlogincolorindigo' :color === 'indigo','btnlogincolorpurple' :color === 'purple','btnlogincolorpink' :color === 'pink' }" type="submit">Iniciar Sesion</button>
             <a href="#" class="text-sm text-gray-400">Olvidaste tu contraseña?</a>
         </div>
     </div>

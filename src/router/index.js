@@ -16,6 +16,31 @@ const routes = [
     path: '/Login',
     name: 'Login',
     component: () => import(/* webpackChunkName: "Login" */ '../views/Login.vue')
+  },
+  {
+    path: '/Menu',
+    name: 'Menu',
+    component: () => import(/* webpackChunkName: "Menu" */ '../views/Menu.vue')
+  },
+  {
+    path: '/Gestion_Usuarios',
+    name: 'GestionUsuarios',
+    component: () => import(/* webpackChunkName: "GestionUsuarios" */ '../views/GestionUsuarios.vue')
+  },
+  {
+    path: '/GeneracionReportes',
+    name: 'GeneracionReportes',
+    component: () => import(/* webpackChunkName: "GeneracionReportes" */ '../views/GeneracionReportes.vue')
+  },
+  {
+    path: '/MantenimientoTags',
+    name: 'MantenimientoTags',
+    component: () => import(/* webpackChunkName: "GestionUsuarios" */ '../views/MantenimientoTags.vue')
+  },
+  {
+    path: '/RegistroInformacionTelepeaje',
+    name: 'RegistroInformacionTelepeaje',
+    component: () => import(/* webpackChunkName: "GestionUsuarios" */ '../views/RegistroinformacionTelepeaje.vue')
   }
 ]
 
