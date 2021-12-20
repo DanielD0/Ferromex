@@ -1,9 +1,11 @@
 <template>
-<CardLogin
-        title ="Usuario:"
-        title2 = "Contraseña:"
-        color = "red"
-/>
+<div class="w-screen h-full flex justify-center">
+    <CardLogin
+            title ="Usuario:"
+            title2 = "Contraseña:"
+            color = "red"
+    />
+    </div>
 <Footer 
     titulocentro = "BOSQUE DE CIRUELOS NO 99,COL. BOSQUES DE LAS LOMAS, MËXICO, D.F.,C.P. 11700"
     tituloderecha = "V 2.0.5"

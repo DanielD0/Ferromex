@@ -11,7 +11,7 @@ body{
     @apply flex justify-center items-center h-screen;
 }
 .card{
-    @apply border rounded-lg p-10 m-10 bg-white shadow-sm w-full max-w-sm ;
+    @apply border rounded-lg p-10 m-10 bg-white shadow-sm w-full max-w-sm;
 }
 .btn{
     @apply rounded border px-6 py-2;
@@ -108,4 +108,11 @@ body{
 }
 .ferromex-color{
     background-color: #BB2028;
+}
+.cardmenu{
+    @apply border border-gray-900 rounded-xl p-4 m-4 shadow-sm max-w-sm w-72 h-40 md:w-80 md:h-40 lg:w-125 lg:h-48 2xl:w-200 2xl:h-74 4k:w-310 4k:h-100;
+    background-color: #BB2028;
+}
+.centrar-cards-menu-2col{
+    @apply w-full h-full grid grid-cols-1 place-items-center 4k:w-full 4k:h-full my-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 4k:grid-cols-2;
 }

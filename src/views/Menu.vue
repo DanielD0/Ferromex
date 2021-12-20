@@ -1,5 +1,6 @@
 <template>
     <Navbar/>
+    <div class="centrar-cards-menu-2col md:h-142 2xl:h-210 4k:h-254">
     <Card
         v-for="(modulo, index) in modulos"
         :key="index"
@@ -8,6 +9,7 @@
         :ruta="modulo.ruta"
         >
         </Card>
+    </div>
     <Footer/>
 </template>
 
@@ -20,30 +22,25 @@ export default {
     setup () {
         const modulos = [
         {
-        titulo: "Monitoreo de Servicios en Tiempo Real",
-        imagen: "logo.png",
-        ruta: "/",
+        titulo: "Registro de información de Telepeaje",
+        imagen: "almacenamiento-de-base-de-datos.png",
+        ruta: "/RegistroInformacionTelepeaje",
         },
         {
-        titulo: "Monitoreo de Carriles",
-        imagen: "logo.png",
-        ruta: "/",
+        titulo: "Gestion de usuarios",
+        imagen: "gestion-de-base-de-datos.png",
+        ruta: "/Gestion_Usuarios",
         },
         {
-        titulo: "Transacciones de Telepeaje en Tiempo Real",
-        imagen: "logo.png",
-        ruta: "/",
+        titulo: "Mantenimiento de Tag's",
+        imagen: "verificacion-del-servidor.png",
+        ruta: "/MantenimientoTags",
         },
         {
-        titulo: "Envío de Transacciones al Operador de Telepeaje",
-        imagen: "logo.png",
-        ruta: "/",
-        },
-        {
-        titulo: "Búsqueda de Transacciones",
-        imagen: "logo.png",
-        ruta: "/",
-        },
+        titulo: "Generacion de Reportes",
+        imagen: "informe-de-base-de-datos.png",
+        ruta: "/GeneracionReportes",
+        }
     ];
 
         return {modulos}

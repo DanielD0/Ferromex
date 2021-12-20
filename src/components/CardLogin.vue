@@ -1,6 +1,6 @@
 <template>
-<div class="wrapper">
-        <div class="card grid grid-cols-1 gap-4">
+<div class="wrapper my-38 -ml-20">
+        <div class="card grid grid-cols-1 gap-4 ml-14">
             <div class="justify-self-center">
                     <img class="rounded w-20 h-25" src="../assets/logoferromex.png" >
             </div>
@@ -22,8 +22,9 @@
                 <input type="checkbox" checked>
                 <span class="text-sm">Recordarme</span>
             </label> -->
-
-            <button class="btn justify-self-center text-white" :class="{'btnlogincolorgray' :color === 'gray','btnlogincolorgreen' :color === 'green', 'ferromex-color' :color === 'red','btnlogincolorblue' :color === 'blue','btnlogincoloryellow' :color === 'yellow','btnlogincolorindigo' :color === 'indigo','btnlogincolorpurple' :color === 'purple','btnlogincolorpink' :color === 'pink' }" type="submit">Iniciar Sesion</button>
+            <router-link to="/Menu" class="btn justify-self-center text-white" :class="{'btnlogincolorgray' :color === 'gray','btnlogincolorgreen' :color === 'green', 'ferromex-color' :color === 'red','btnlogincolorblue' :color === 'blue','btnlogincoloryellow' :color === 'yellow','btnlogincolorindigo' :color === 'indigo','btnlogincolorpurple' :color === 'purple','btnlogincolorpink' :color === 'pink' }" type="submit">
+            Iniciar Sesion
+            </router-link>
             <a href="#" class="text-sm text-gray-400">Olvidaste tu contraseña?</a>
         </div>
     </div>
